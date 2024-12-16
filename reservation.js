@@ -2,7 +2,7 @@
 
 $(document).ready( () => {
 	const emailPattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b/;
-    const phonePattern = /\b[0-9]+\-[0-9]+\-[0-9]{4}\b/;
+    const phonePattern = /^(\()?\d{3}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/;
 
 	//Obtain all span elements on page load
 	const spans = document.getElementsByTagName("span");
