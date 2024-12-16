@@ -1,0 +1,37 @@
+.fakeimg {
+    height: 200px;
+    padding: 10px;
+}
+
+body > h1 {
+    text-align: left;
+    font-size: 52px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button {
+    text-decoration: underline;
+    color: blue;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+.row {
+    text-align-last: center;
+}
+
+.col-sm-6 {
+    border: 3px solid black;
+ }
+
+.hide > p {
+    background-color: lightblue;
+    text-align-last: left;
+}
